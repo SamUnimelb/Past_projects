@@ -1,0 +1,11 @@
+[1]	Abeed Sarker and Graciela Gonzalez. (2015) Portable automatic text classification for adverse drug reaction detection via multi-corpus training. Journal of Biomedical Informatics, 53: 196-207.
+[2]	※17-project2.pdf.§ .
+[3]	※2017S2-90049P2-spec.pdf.§ .
+[4]	G. James, D. Witten, T. Hastie, and R. Tibshirani, An Introduction to Statistical Learning, vol. 103. New York, NY: Springer New York, 2013.
+[5]	M. S. Islam, F. E. M. Jubayer, and S. I. Ahmed, ※A support vector machine mixed with TF-IDF algorithm to categorize Bengali document,§ in 2017 International Conference on Electrical, Computer and Communication Engineering (ECCE), 2017, pp. 191每196.
+[6]	M. Braovi?, D. Stipani?ev, D. Gotovac, and D. Krstini?, ※Comparison of cogent confabulation based classifier and Naive Bayes classifier in the detection of lens flares in wildfire smoke detection,§ in 2017 2nd International Multidisciplinary Conference on Computer and Energy Science (SpliTech), 2017, pp. 1每4.
+[7]	J. Zobel and A. Moffat, ※Inverted files for text search engines,§ ACM computing surveys (CSUR), vol. 38, no. 2, p. 6, 2006.
+[8]	A. Rajaraman and J. D. Ullman, ※Jure Leskovec,§ 2010.
+[9]	S. Viveka and B. Kalaavathi, ※Review on clinical data mining with psychiatric adverse drug reaction,§ in 2016 World Conference on Futuristic Trends in Research and Innovation for Social Welfare (Startup Conclave), 2016, pp. 1每3.
+[10]	M. Makary, M. Oakes, R. Mitkov, and F. Yammout, ※Using Supervised Machine Learning to Automatically Build Relevance Judgments for a Test Collection,§ in 2017 28th International Workshop on Database and Expert Systems Applications (DEXA), 2017, pp. 108每112. 
+
