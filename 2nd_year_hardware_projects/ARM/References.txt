@@ -1,0 +1,12 @@
+[1] Roger Wilson ,"Some facts about the Acorn RISC Machine" Roger Wilson in comp.arch, 2 November 1988. Retrieved 25 May 2007.
+[2] Goodacre, J.; Sloss, A.N., "Parallelism and the ARM instruction set architecture," Computer , vol.38, no.7, pp.42,50, July 2005
+doi: 10.1109/MC.2005.239
+[3] Wang GuanJun; Ye Feng; Zhang Ning; Wang Maoli, "Design and implementation of medical service robot with single arm and tracking function," Information and Automation (ICIA), 2013 IEEE International Conference on , vol., no., pp.840,843, 26-28 Aug. 2013
+doi: 10.1109/ICInfA.2013.6720410
+[4] Mark Hachman,"ARM Cores Climb Into 3G Territory", in Extreme technology,2002.
+[5] Palocko, L.; Broulim, J.; Moldaschl, J., "Decoder with the dynamic CMOS matrix," Telecommunications Forum (TELFOR), 2013 21st , vol., no., pp.612,615, 26-28 Nov. 2013, doi: 10.1109/TELFOR.2013.6716305
+[6] Santo, B., "25 microchips that shook the world," Spectrum, IEEE , vol.46, no.5, pp.34,43, May 2009 doi: 10.1109/MSPEC.2009.4907384
+[7] Noury, N.; Perriot, B.; Collet, J.; Grenier, E.; Cerny, M.; Massot, B.; McAdams, E., "ActimedARM - Design of a wearable system to monitor daily actimetry," Engineering in Medicine and Biology Society (EMBC), 2013 35th Annual International Conference of the IEEE , vol., no., pp.1851,1854, 3-7 July 2013 doi: 10.1109/EMBC.2013.6609884
+[8] Muller, M., "ARM6: a high performance low power consumption macrocell," Compcon Spring '93, Digest of Papers. , vol., no., pp.80,87, 22-26 Feb. 1993 doi: 10.1109/CMPCON.1993.289641
+[9] Ing-Jer Huang; Wen-Kai Huang; Rui-Ting Gu; Chung-Fu Kao, "A cost effective multimedia extension to ARM7 microprocessors," Circuits and Systems, 2002. ISCAS 2002. IEEE International Symposium on , vol.2, no., pp.II-304,II-307 vol.2, 2002 doi: 10.1109/ISCAS.2002.1010985
+

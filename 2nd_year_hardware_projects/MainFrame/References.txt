@@ -1,0 +1,12 @@
+[1] Ghosh, S.; Chandrasekaran, S.; Chapman, B., "Energy Analysis of Parallel Scientific Kernels on Multiple GPUs," Application Accelerators in High Performance Computing (SAAHPC), 2012 Symposium on , vol., no., pp.54,63, 10-11 July 2012 doi: 10.1109/SAAHPC.2012.17
+
+[2] http://news.qq.com/a/20130709/011006.htm
+[3] http://www.techweb.com.cn/it/2015-04-22/2144655.shtml
+
+[4] Wenzhou-Kean University Strategic Plan 2015-2020
+
+[5] Kurzak, Jakub; Bader, David A.; Dongarra, Jack (2010). Scientific Computing with Multicore and Accelerators. Retrieved from http://www.eblib.com
+
+[6] Thuraisingham, Bhavani. Developing and Securing the Cloud. Hoboken: CRC Press, 2013. Ebook Library. Web. 02 May. 2015.
+
+[7] Hennessy, John L.; Patterson, David A.. Computer Architecture : A Quantitative Approach. Burlington: Elsevier Science, 2002. Ebook Library. Web. 02 May. 2015.
