@@ -1,0 +1,101 @@
+
+
+Data Structure
+Andrew Yao
+GPA
+Monday,Friday 9:00-10:30
+This is the course that introuduce the concept of data structure and algorithms.It will teach students concepts of data structures.
+WANG LIANG#A#90,LI SHUYUN#B#85,JIA XU#A#95,Qiu Chengtong#A#92,Wang Xuan#A#91,Lou Tiancheng#B#81,Jackson A#A#93,Zhou Hongyi#C#65,Tang zhengye#A#75,Gauss#A#65,Feng shaofeng#C#85,Zhou Jielun#A#95,Pan Tianshou#A#87,Wu guanzhong#A#68,Iin Fengmian#B+?#84,
+cs2232
+4 
+2014 9 1 
+2014 12 25 
+
+Linear Algebra
+Tao Zhexuan
+GPA
+Tuesday,Thursday 9:00-10:30
+This is the course that introuduce the concept of linear algebra including matrix and its forms, basis, spaces and so on.
+WANG LIANG#A#93,LI SHUYUN#B#65,JIA XU#B#90,Qiu Chengtong#A#90,Wang Xuan#B#95,Lou Tiancheng#A#92,Jackson A#A#98,Zhou Hongyi#B#85,Tang zhengye#B#90,Gauss#A#65,Feng shaofeng#C#86,Zhou Jielun#B#60,Pan Tianshou#A#92,Wu guanzhong#B#100,Iin Fengmian#C#40,
+2390
+3 
+2014 9 2 
+2014 12 26 
+
+Machine Assembly
+Alan Turing
+GPA
+Monday,Thursday 9:00-10:30
+This is the course that tells you how to communicate with computers with computer language.
+LI SHUYUN#A#45,JIA XU#C#50,Wang Xuan#A#55,Lou Tiancheng#C#65,Zhou Hongyi#B#80,Tang zhengye#B#86,Gauss#A#92,Feng shaofeng#A#32,Zhou Jielun#B#98,Pan Tianshou#B#90,Wu guanzhong#A#84,
+2540
+3 
+2014 9 1 
+2014 12 25 
+
+Calculus I
+Gaussion
+GPA
+Tuesday,Thursday 13:30-15:00
+This is the course that gives you basic ideas about how to take derivatives and anti-derivatives.
+WANG LIANG#A#69,LI SHUYUN#A#32,JIA XU#B#46,Qiu Chengtong#A#44,Wang Xuan#B#80,Lou Tiancheng#A#68,Jackson A#A#72,Zhou Hongyi#B#90,Tang zhengye#B#68,Gauss#A#78,Feng shaofeng#C#82,Zhou Jielun#A#88,Pan Tianshou#A#98,Wu guanzhong#C#86,Iin Fengmian#B#88,
+2415
+4 
+2014 9 2 
+2014 12 26 
+
+Database Management
+Andrew Yao
+GPA
+Tuesday,Friday 13:30-15:00
+This is the course that introduce basic knoweledge of how to manage a database.
+WANG LIANG#A#82,LI SHUYUN#B#80,JIA XU#B#82,Qiu Chengtong#A#84,Wang Xuan#C#90,Lou Tiancheng#A#92,Jackson A#A#94,Tang zhengye#C#96,Gauss#A#98,Feng shaofeng#A#76,Zhou Jielun#A#68,
+2575
+4 
+2014 9 2 
+2014 12 26 
+
+Electronics
+Andrew Yao
+GPA
+Tuesday,Friday 12:00-13:15
+This is the course that introduce basic knoweledge of how the computer hardware works as well as the basic ideas of hardware designing.
+WANG LIANG#B#90,LI SHUYUN#A#80,JIA XU#C#60,Wang Xuan#A#65,Zhou Hongyi#B#72,Tang zhengye#B#86,Gauss#A#98,Feng shaofeng#A#100,Zhou Jielun#F#96,Pan Tianshou#C#92,Iin Fengmian#A#80,
+2800
+4 
+2014 9 2 
+2014 12 26 
+
+Human Computer Interaction
+Andrew Yao
+GPA
+Tuesday,Friday 11:00-12:30
+This is the course that introduce the study, planning, design and uses of the interfaces between people (users) and computers.
+WANG LIANG#A#86,LI SHUYUN#C#88,JIA XU#A#84,Qiu Chengtong#A#89,Lou Tiancheng#B#82,Jackson A#A#90,Tang zhengye#A#92,Gauss#A#98,Zhou Jielun#A#100,Pan Tianshou#A#96,Wu guanzhong#C#90,Iin Fengmian#C#82,
+3202
+4 
+2014 9 2 
+2014 12 26 
+
+Web Programming
+Andrew Yao
+GPA
+Monday,Thursday 12:00-13:15
+This is the course introduce html, php and js for web programming.
+WANG LIANG#B#90,LI SHUYUN#C#88,JIA XU#A#92,Jackson A#C#96,Zhou Hongyi#A#90,Tang zhengye#A#86,Gauss#A#84,Zhou Jielun#B#88,Wu guanzhong#A#92,Iin Fengmian#B#98,
+2730
+4 
+2014 9 2 
+2014 12 26 
+
+Software Engineering
+Andrew Yao
+GPA
+Monday,Thursday 13:30-16:00
+This is the course that introduces the study and application of engineering to the design, development, and maintenance of software.
+WANG LIANG#B#90,LI SHUYUN#C#88,JIA XU#A#92,Jackson A#C#96,Zhou Hongyi#A#90,Tang zhengye#A#86,Gauss#A#84,Zhou Jielun#B#88,Wu guanzhong#A#92,Iin Fengmian#B#98,
+2995
+4 
+2014 9 2 
+2014 12 26 
+

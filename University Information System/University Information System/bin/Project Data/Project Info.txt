@@ -1,0 +1,56 @@
+
+
+0003
+Machine and Learning
+Alan Turing
+Lou Tiancheng,Jackson A,Zhou Hongyi,
+26 2015 4 1 15000 75
+
+0001
+CC GUI
+Van Gogh
+WANG LIANG,Zhou Jielun,
+45 2015 6 2 1345343 20
+
+0008
+Abstracted Arts
+Van Gogh
+Iin Fengmian,Pan Tianshou,Wu guanzhong,
+75 2015 2 2 45000 86
+
+0006
+the appliaction of Accounting
+Xie Lin
+Feng shaofeng,
+36 2015 3 3 12000 82
+
+prj008
+Hacking Interface
+Andrew Yao
+WANG LIANG,LI SHUYUN,JIA XU,Zhou Jielun,
+60 2015 4 21 12000 20
+
+0005
+Reasearch project
+Darvin
+Gauss,
+51 2015 2 6 2000 80
+
+0004
+The application of calculus
+Gaussion
+Tang zhengye,
+33 2015 3 4 14000 78
+
+0007
+Markting practice
+Jack Ma
+Zhou Jielun,Feng shaofeng,
+31 2015 5 11 60000 84
+
+0002
+Multiple Space In Math
+Tao Zhexuan
+Qiu Chengtong,Wang Xuan,
+45 2015 2 1 1500 80
+

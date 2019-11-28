@@ -1,0 +1,51 @@
+Data Structure
+Monday,Friday 9:00-10:30
+
+Linear Algebra
+Tuesday,Thursday 9:00-10:30
+
+Machine Assembly
+Monday,Thursday 9:00-10:30
+
+Calculus I
+Tuesday,Thursday 13:30-15:00
+
+Database Management
+Tuesday,Friday 13:30-15:00
+
+Electronics
+Tuesday,Friday 12:00-13:15
+
+Human Computer Interaction
+Tuesday,Friday 11:00-12:30
+
+Web Programming
+Monday,Thursday 12:00-13:15
+
+Software Engineering
+Monday,Thursday 13:30-16:00
+
+Reasearch II
+Wendesday 13:30-16:00
+
+English and literature 3
+Wendesday 17:30-19:00
+
+Accounting
+Monday,Thursday 17:30-19:00
+
+Graphic Design
+Tuesday,Friday 17:30-19:00
+
+History and Humanity
+Tuesday,12:00-13:00
+
+Marketing management
+Monday,Thursday 16:00-17:15
+
+Organic Chemistry
+Wendesday 12:30-13:30
+
+Reading
+Wendesday 9:30-11:00
+

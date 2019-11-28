@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="usernameLabel" max="32767" attributes="0"/>
+                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                      <Component id="usernameDisplayLabel" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" pref="358" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="chineseVersionBt" alignment="0" max="32767" attributes="0"/>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace min="127" pref="127" max="-2" attributes="0"/>
+                                      <Component id="cleanBt" max="32767" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="BMILabel" max="32767" attributes="0"/>
+                                              <EmptySpace min="99" pref="99" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="avgHeightLabel" max="32767" attributes="0"/>
+                                              <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="avgWeightLabel" alignment="0" max="32767" attributes="0"/>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="bodyPropertyLabel" max="32767" attributes="0"/>
+                                              <EmptySpace min="27" pref="27" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="avgHeightDisplayLabel" max="32767" attributes="0"/>
+                                              <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="avgWeightDisplayLabel" max="32767" attributes="0"/>
+                                              <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Group type="102" alignment="0" attributes="0">
+                                              <Component id="BMIDisplayLabel" max="32767" attributes="0"/>
+                                              <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
+                                          </Group>
+                                          <Component id="bodyPropDisplayLabel" alignment="0" max="32767" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                              </Group>
+                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="newHeightLabel" max="32767" attributes="0"/>
+                                      <EmptySpace min="18" pref="18" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="newWeightLabel" max="32767" attributes="0"/>
+                                      <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="newBMILabel" max="32767" attributes="0"/>
+                                      <EmptySpace min="72" pref="72" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="newBodyStatusLabel" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="heightField" max="32767" attributes="0"/>
+                                      <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="weightField" max="32767" attributes="0"/>
+                                      <EmptySpace min="12" pref="12" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="newBMIDisplayLabel" max="32767" attributes="0"/>
+                                      <EmptySpace min="9" pref="9" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="newBodyStatusDisplayLabel" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="365" max="-2" attributes="0"/>
+                              <Component id="recordBt" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="usernameDisplayLabel" alignment="3" max="32767" attributes="0"/>
+                  <Component id="usernameLabel" alignment="3" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="heightField" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="newHeightLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="avgHeightLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="avgHeightDisplayLabel" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="weightField" alignment="0" max="32767" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="newWeightLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="avgWeightLabel" alignment="0" max="32767" attributes="0"/>
+                          <Component id="avgWeightDisplayLabel" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="6" pref="6" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="newBMILabel" alignment="1" max="32767" attributes="0"/>
+                  <Component id="newBMIDisplayLabel" alignment="1" max="32767" attributes="0"/>
+                  <Component id="BMILabel" alignment="1" max="32767" attributes="0"/>
+                  <Component id="BMIDisplayLabel" alignment="1" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="newBodyStatusLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="newBodyStatusDisplayLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="bodyPropertyLabel" alignment="0" max="32767" attributes="0"/>
+                  <Component id="bodyPropDisplayLabel" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" min="-2" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="cleanBt" alignment="0" max="32767" attributes="0"/>
+                  <Component id="recordBt" alignment="0" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="chineseVersionBt" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="usernameDisplayLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="User"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="usernameLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Username:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="avgHeightLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Height Avg(m):"/>
+        <Property name="toolTipText" type="java.lang.String" value="Display your recent height in average."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="avgWeightLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Weight Avg(kg):"/>
+        <Property name="toolTipText" type="java.lang.String" value="Display your recent weight in average."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="avgHeightDisplayLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="1.75"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="avgWeightDisplayLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="67 kg"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="heightField">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="1.75"/>
+        <Property name="toolTipText" type="java.lang.String" value="Input your new height measuring record here."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="weightField">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="67"/>
+        <Property name="toolTipText" type="java.lang.String" value="Input your new weight measuring record here"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="newHeightLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="New Height(m):"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="newWeightLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="New Weight(kg):"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="recordBt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Record"/>
+        <Property name="toolTipText" type="java.lang.String" value="Record your recent height and weight."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="recordBtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="cleanBt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Clean"/>
+        <Property name="toolTipText" type="java.lang.String" value="Clean all of your recent records, you may do it if you find the measurements are not accurate."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="cleanBtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="chineseVersionBt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="&#x4e2d;&#x6587;&#x7248;"/>
+        <Property name="toolTipText" type="java.lang.String" value="&#x5207;&#x6362;&#x81f3;&#x4e2d;&#x6587;&#x7248;"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chineseVersionBtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BMILabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="BMI:"/>
+        <Property name="toolTipText" type="java.lang.String" value="Your BMI accroding to at most recent 7 average meaurement of your weight and your height."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="BMIDisplayLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="21.87"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bodyPropertyLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Body status:"/>
+        <Property name="toolTipText" type="java.lang.String" value="Your body status in average, can be too thin, normal, too fat and obesity."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="bodyPropDisplayLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Normal"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="newBMILabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="New BMI:"/>
+        <Property name="toolTipText" type="java.lang.String" value="Your BMI, automatically calculated."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="newBMIDisplayLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="21.87"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="newBodyStatusLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="New Body Status:"/>
+        <Property name="toolTipText" type="java.lang.String" value="Your body status this time, can be too thin, normal, too fat and obesity."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="newBodyStatusDisplayLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x9ed1;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Normal"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

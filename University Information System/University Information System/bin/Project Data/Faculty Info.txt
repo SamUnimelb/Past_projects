@@ -1,0 +1,122 @@
+
+
+Faculty
+Darvin
+340900
+SINGING
+F0021
+darv@kingdomUni.edu
+Tues/Thurs, 11:30-13:30
+B203
+250000 2002 3 1 1968 9 19
+
+Faculty
+David
+381233
+Basketball
+F0132
+davi@kingdomUni.edu
+Wednes/Fri, 14:00-16:30
+B205
+280000 1999 8 1 1978 2 24
+
+Faculty
+Paul
+382311
+text
+F0026
+pual@kingdomUni.edu
+Thurs/Fri, 14:00-16:30
+C303
+200000 2005 3 1 1983 1 7
+
+Faculty
+Mendeleev
+374622
+text
+F0025
+mende@kingdomUni.edu
+Tues/Fri, 12:00-14:30
+C401
+380000 1990 3 1 1959 1 7
+
+Faculty
+Gaussion
+339270121gsl
+ChaTTING,Magic
+F0020
+gau@kingdomUni.edu
+Thurs/Fri, 14:00-16:30
+C303
+270000 1999 11 28 1972 4 1
+
+Faculty
+Andrew Yao
+12345f
+READING,Researching
+F0017
+dandrewY@tsinghua.edu
+Mon/Thurs, 9:30-11:30
+B202
+250000 1997 2 25 1948 0 23
+
+Faculty
+Van Gogh
+331723
+drawing
+F0023
+vang@kingdomUni.edu
+Tues/Fri, 12:00-14:30
+B202
+310000 1994 7 1 1959 3 17
+
+Faculty
+ShakeSpear
+381419
+READING
+F0022
+shake@kingdomUni.edu
+Mon/Fri, 12:00-14:30
+C411
+300000 1997 2 2 1977 8 18
+
+Faculty
+Alan Turing
+12345f
+BASKETBALL,Japanese Commic,Gay Studying
+F0019
+aTuring@cambridge.com.edu
+Mon/Fri, 9:30-11:30
+B201
+200000 2006 2 12 1985 3 3
+
+Faculty
+XieLin
+374622
+Basketball
+F0131
+xielin@kingdomUni.edu
+Tues/Fri, 12:00-14:30
+B220
+280000 1999 7 1 1963 8 8
+
+Faculty
+Tao Zhexuan
+139470jkg
+BASKETBALL,Shotting
+F0018
+tazhe@kingdomUni.edu
+Tues/Fri, 12:00-14:30
+C404
+140000 2010 3 7 1977 4 7
+
+Faculty
+Jack Ma
+3873126
+Basketball
+F0024
+ackm@kingdomUni.edu
+Thurs/Fri, 12:00-14:30
+C305
+250000 2003 3 2 1963 8 8
+

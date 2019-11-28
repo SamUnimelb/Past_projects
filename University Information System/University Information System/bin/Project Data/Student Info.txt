@@ -1,0 +1,146 @@
+
+
+Student
+Jackson A
+931238
+basketball
+S0007
+jacksona@kingdomUni.edu
+Computer Software Engineer, Computer Support Specialist, Computer Systems Analyst, 
+0 2015 3 1 2002 5 28
+
+Student
+LI SHUYUN
+932sd488
+YOGA,Fighting
+S0002
+lishuyuan@kingdomUni.edu
+Unknow 2013 9 1
+3000 2015 3 1 1996 10 17
+
+Student
+Zhou Hongyi
+932761
+cooking
+S0008
+zhouhongyi@kingdomUni.edu
+Unknow
+0 2015 3 1 1995 9 7
+
+Student
+Li Bai
+1234567
+Swimming, writing, Coding
+0930757
+null
+Computer Software Engineer, Computer Support Specialist, Computer Systems Analyst, 
+200 2015 2 1 1996 5 2
+
+Student
+Wang Xuan
+927364bb
+volleyball,Pingpang
+S0005
+wangxuan@kingdomUni.edu
+Unknow 2013 9 1
+1200 2014 3 1 1995 8 2
+
+Student
+Iin Fengmian
+12345s
+basketball
+S0016
+lin@163.com
+Computer Software Engineer, Computer Systems Analyst, Web Developer, 
+0 2015 3 1 1997 3 21
+
+Student
+Zhou Jielun
+912384
+writing
+S0012
+zhoujielun@kingdomUni.edu
+Computer Support Specialist, Computer Systems Analyst, 
+0 2014 3 1 1996 10 27
+
+Student
+Tang zhengye
+983721
+swimming
+S0009
+tangzhengye@kingdomUni.edu
+Unknow 2013 9 1
+0 2015 3 1 1995 3 12
+
+Student
+Wu guanzhong
+921304
+basketball
+S0015
+wuguanzhong@kingdomUni.edu
+Unknow 2013 9 1
+0 2015 3 1 1996 6 1
+
+Student
+Feng shaofeng
+932128
+acting
+S0011
+fengshaofeng@kingdomUni.edu
+Unknow 2013 9 1
+0 2014 3 1 1995 0 16
+
+Student
+WANG LIANG
+12345s
+SWIMMING,Dancing
+S0001
+wangliang@kingdomUni.edu
+Computer Software Engineer, Computer Support Specialist, Computer Systems Analyst, 
+4000 2015 3 1 1996 2 2
+
+Student
+JIA XU
+942743kg
+S0003
+FOOTBALL,Shotting
+jiaxu@kingdomUni.edu
+Computer Software Engineer, Computer Systems Analyst, Computer Support Specialist, 
+0 2015 3 1 1994 7 2
+
+Student
+Pan Tianshou
+930123
+WRITING
+S0014
+pantianshou@kingdomUni.edu
+Computer Software Engineer, Web Developer, Computer Systems Analyst, 
+0 2014 3 1 1997 0 2
+
+Student
+Gauss
+938632
+reading
+S0010
+guass@kingdomUni.edu
+Unknow 2013 9 1
+0 2014 3 1 1997 1 13
+
+Student
+Lou Tiancheng
+12345s
+singing
+S0006
+loutiancheng@kingdomUni.edu
+Unknow 2013 9 1
+0 2014 3 1 1995 9 7
+
+Student
+Qiu Chengtong
+932837axt
+Basketball,Yoga,Math
+S0004
+qiuchengtong@kingdomUni.edu
+Computer Software Engineer, 
+1500 2015 3 1 1996 1 12
+

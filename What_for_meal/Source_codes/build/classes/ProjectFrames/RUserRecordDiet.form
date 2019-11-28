@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.8" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <Events>
+    <EventHandler event="windowClosing" listener="java.awt.event.WindowListener" parameters="java.awt.event.WindowEvent" handler="formWindowClosing"/>
+  </Events>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="addBt" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="145" max="-2" attributes="0"/>
+                      <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                          <Component id="imgLabel" alignment="0" pref="365" max="32767" attributes="0"/>
+                          <Component id="foodJCombo" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                          <Group type="102" attributes="0">
+                              <Component id="amountField" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <Component id="amountCombo" alignment="0" max="32767" attributes="0"/>
+                          <Component id="recordBt" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace min="447" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="foodJCombo" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="imgLabel" min="-2" pref="284" max="-2" attributes="0"/>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="amountField" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="amountCombo" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                      <Component id="recordBt" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="addBt" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="54" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JComboBox" name="foodJCombo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Verdana" size="24" style="1"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(foodDrinkStrs)" type="code"/>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="itemStateChanged" listener="java.awt.event.ItemListener" parameters="java.awt.event.ItemEvent" handler="foodJComboItemStateChanged"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePost" type="java.lang.String" value="foodJCombo.setFont(new java.awt.Font(&quot;&#x5b8b;&#x4f53;&quot;, 1, 24)); // NOI18N&#xa;foodJCombo.setToolTipText(&quot;If food not found, input in the text below:&quot;);"/>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="// &#x5c06;&#x7ec4;&#x4ef6;&#x6dfb;&#x52a0;&#x5230;&#x7236;&#x5bb9;&#x5668;&#x7684;&#x4ee3;&#x7801; - &#x6b64;&#x5904;&#x672a;&#x663e;&#x793a;"/>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Gautami" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Name of the food / drink:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="addBt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Segoe UI Symbol" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="What I ate / drunk is not here"/>
+        <Property name="toolTipText" type="java.lang.String" value="If food / drink is not found, click this."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addBtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="imgLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5b8b;&#x4f53;" size="24" style="0"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Image of this is &#xa;currently not available."/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_InitCodePre" type="java.lang.String" value="foodDrink = foodDrinkList.get(0);&#xa;&#xa;FoodImageLinker picLinker = new FoodImageLinker();&#xa;        //TODO add your handling code here:&#xa;        &#xa;        try {&#xa;            imgPath = picLinker.readPicToMemory(foodDrink.getFoodDrinkID());&#xa;            File f = new File(imgPath);&#xa;            imgLabel.setIcon(new ImageIcon(imgPath));&#xa;            imgLabel.setHorizontalAlignment(JLabel.CENTER);&#xa;            f.delete();&#xa;        } catch (SQLException ex) {&#xa;            //It happens, doing nothing.&#xa;            imgLabel.setIcon(null);&#xa;        }//end try-catch"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JTextField" name="amountField">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Trebuchet MS" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="A number"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel2">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Trebuchet MS" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="You Eat:"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="amountCombo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x65b9;&#x6b63;&#x5170;&#x4ead;&#x8d85;&#x7ec6;&#x9ed1;&#x7b80;&#x4f53;" size="24" style="3"/>
+        </Property>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+          <Connection code="new javax.swing.DefaultComboBoxModel&lt;&gt;(amountUnitStrs)" type="code"/>
+        </Property>
+        <Property name="toolTipText" type="java.lang.String" value="Numerical means u know exactly how many grams you ate."/>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Trebuchet MS" size="24" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="of it."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel4">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Trebuchet MS" size="36" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Portion:"/>
+        <Property name="toolTipText" type="java.lang.String" value="Portion is a particular word in health and nutrion means amount."/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="recordBt">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Serif" size="24" style="3"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Record it"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="recordBtActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel5">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="&#x5b8b;&#x4f53;" size="24" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="unit(s) / g"/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>

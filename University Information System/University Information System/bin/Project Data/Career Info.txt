@@ -1,0 +1,31 @@
+Computer and Information Systems Manager
+$113,720
+Information systems managers (IS Manager) implement information technology in an organization, overseeing a team of IT professionals.
+Computer Systems Analyst
+$77,080
+Computer systems analysts study an organization¡¯s current computer systems and procedures and design information systems solutions to help the organization operate more efficiently and effectively.
+Computer Software Engineer
+$93,470 (systems)$87,480 (applications)
+A software engineer is a licensed professional engineer who is schooled and skilled in the application of engineering discipline to the creation of software.
+Computer Hardware Engineer
+$98,820
+Most computer hardware engineers research, develop, design, and test various computer equipment. 
+Computer Programmer
+$70,940
+A programmer, computer programmer, developer, coder, or software engineer is a person who writes computer software. 
+Computer Support Specialist
+$44,300
+Computer support specialists provide help and advice to people and organizations using computer software or equipment. 
+Network Systems Analyst
+$73,250
+A programmer or consultant who designs and manages the development of business applications. 
+Software Developer
+$96,600 (systems)$89,280 (applications)
+A software developer is a person concerned with facets of the software development process. 
+Web Developer
+$77,010
+A web developer is a programmer who specializes in, or is specifically engaged in, the development of World Wide Web applications, or distributed network applications that are run over HTTP from a web server to a web browser.
+Web Master
+$77,010
+A webmaster, also called a web architect, web developer, site author, website administrator, or website coordinator is a person responsible for maintaining one or many websites.
+END
