@@ -1,11 +1,17 @@
 <?php
+	/* 
+	    This program is used to control user log in 
+		and direct user to correct sides.
+	 */
+	//include("includes/header.html");
+
 	$identity = $_POST['identity'];
 	$logv = $_POST['logv'];
 	$pass = strip_tags(trim($_POST['password']));
 	
 	function check_user($table, $dbv, $logv, $pass)
 	{
-		require ('../../mysqli_doctorweb.php'); 
+		require ('db_connection.php'); 
 		$q = "SELECT * FROM $table 
 		WHERE $dbv = '$logv' AND password = '".SHA1($pass)."'";
 		$result = @mysqli_query($dbc, $q);
@@ -20,7 +26,7 @@
 		if(check_user('doctor', 'password', $logv, $pass) == 1)
 		{
 			//Direct to citizen_direct.php
-			echo "<form action=\"doctor_direct.php\" method=\"post\" />";
+			echo "<form action=\"clinician_progs/doctor_direct.php\" method=\"post\" />";
 			echo "<input type=\"hidden\" name=\"ID\" value=\"".$logv."\" />";
 			echo "<input type=\"hidden\" name=\"password\" value=\"".$pass."\" />";
 			echo "<input type=\"submit\" value=\"Go to my page\" />";
@@ -36,7 +42,7 @@
 		if(check_user('citizen', 'ID', $logv, $pass) == 1)
 		{
 			//Direct to citizen_direct.php
-			echo "<form action=\"citizen_direct.php\" method=\"post\" />";
+			echo "<form action=\"citizen_progs/citizen_direct.php\" method=\"post\" />";
 			echo "<input type=\"hidden\" name=\"ID\" value=\"".$logv."\" />";
 			echo "<input type=\"hidden\" name=\"password\" value=\"".$pass."\" />";
 			echo "<input type=\"submit\" value=\"Go to my page\" />";
@@ -46,4 +52,6 @@
 			include("login_page.php");
 		}//end if-else
 	}//end else if
+
+	include("includes/footer.html");
 ?>

@@ -6,7 +6,7 @@ $page_title = 'Record New Case';
 // Check for form submission:
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
-	require ('../../mysqli_doctorweb.php'); // Connect to the db.	
+	require ('db_connection.php'); // Connect to the db.	
 
 	$doctor_user = $_POST['doctor_user'];
 	$recordID = 0;

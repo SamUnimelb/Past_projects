@@ -14,7 +14,7 @@ $page_title = 'Record New Case';
 // Check for form submission:
 if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
-	require ('../../mysqli_doctorweb.php'); // Connect to the db.
+	require ('db_connection.php'); // Connect to the db.
 	
 	$doctor_user = $_POST['username'];
 	$recordID = 0;
@@ -45,7 +45,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 			
 		echo 'Name: '.$row['name'].'<br>';
 		echo 'Age: '.$row['age'].'<br>';
-		echo 'Gender: '.$row['sex'].'<br>';
+		if($row['sex'] == 1)
+			echo 'Sex: M <br />';
+		elseif($row['sex'] == 2)
+			echo 'Sex: F <br />';
 		echo 'Blood type: '.$row['blood_type'].'<br>';
 		echo '<br><br>';
 	}//end loop
