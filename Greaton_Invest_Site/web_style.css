@@ -1,0 +1,55 @@
+/*General decoration rules: */
+body{background-color: #0a2b3d; }
+a:link, a:visited{
+    color: white;
+    text-decoration: none; 
+}
+
+a:hover{color: lightgrey;}
+
+/*Decorate the header section of the main page: */
+header{ 
+    border: 10px groove;  
+    background-attachment: scroll;  
+}
+
+header>p{
+    border: 10px hidden; display: inline-block;
+}
+
+header>p>a>img{display: block;}
+
+/*Decorate the main section of the main page: */
+main{
+    color: #FFF; font: bold 1.5em Arial sans-serif;
+}
+
+p.main_body{
+    color: #FFF; 
+    font: italic .75em Arial sans-serif;
+}
+
+main>section{
+    width: 50%;
+    float: left;
+}
+
+.sec_img{width: 100%;}
+
+/*Decorate the footer section of the main page: */
+footer>p{
+    color: #FFF; clear: both;
+    display: inline-block;
+    font: bold italic .8em Arial sans-serif;
+    width: 20%;
+}
+
+footer>p>a>img{ 
+    width: 25%
+    display：block; 
+}
+
+#contact_us, #back_main{
+    font: bold 1.5em Arial sans-serif;
+    display: block;
+}
