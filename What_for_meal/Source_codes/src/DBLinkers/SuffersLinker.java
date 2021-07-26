@@ -49,7 +49,7 @@ public class SuffersLinker {
         diseaseList = new LinkedList<>();
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
 
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.suffers WHERE suffer_uid = ?;");
             preparedStatement.setInt(1, uID);
@@ -77,7 +77,7 @@ public class SuffersLinker {
         
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             
             preparedStatement = connect.prepareStatement("DELETE FROM what_to_eat.suffers WHERE suffer_uid = ?;");
             preparedStatement.setInt(1, userID);

@@ -36,7 +36,7 @@ public class FlavorSimulatesLinker {
     public FlavorSimulates getFlavorSimulates(int flavorID, int diseaseID) {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             flavorSimulate = new FlavorSimulates();
             flavorSimulate.setFlavorID(flavorID);
             flavorSimulate.setDiseaseID(diseaseID);
@@ -66,7 +66,7 @@ public class FlavorSimulatesLinker {
 
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
 
             preparedStatement = connect.prepareStatement("DELETE FROM what_to_eat.flavor_stimulates " +
                 "WHERE fs_flavor = ? AND fs_disease_id = ?;");
@@ -99,7 +99,7 @@ public class FlavorSimulatesLinker {
         
          try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.flavor_stimulates WHERE fs_flavor = ?;");
             preparedStatement.setInt(1, flavorID);
             resultSet = preparedStatement.executeQuery();

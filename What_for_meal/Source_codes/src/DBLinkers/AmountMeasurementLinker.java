@@ -45,7 +45,7 @@ public class AmountMeasurementLinker {
         try {
             // setup the connection with the DB.
             amountUnit = new AmountUnit();
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.amount_measurement WHERE act_uid = ?;");
             preparedStatement.setInt(1, amountUnitID);
             resultSet = preparedStatement.executeQuery();
@@ -71,7 +71,7 @@ public class AmountMeasurementLinker {
          try {
             // setup the connection with the DB.
             amountUnitList = new LinkedList<>();
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.amount_measurement ORDER BY measurement_name;");
             resultSet = preparedStatement.executeQuery();
 

@@ -39,7 +39,7 @@ public class ActualDietLinker {
         try {
             // setup the connection with the DB.
             userActualDiet = new LinkedList<>();
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.actual_diet WHERE act_uid = ?;");
             preparedStatement.setInt(1, rUserID);
             resultSet = preparedStatement.executeQuery();
@@ -70,7 +70,7 @@ public class ActualDietLinker {
     public boolean writeUserActualDiet(int rUserID, ActualDiet userActualDiet) {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
 
             //Line doing encryption, should be used with execute update.
             preparedStatement = connect.prepareStatement("INSERT INTO what_to_eat.actual_diet "

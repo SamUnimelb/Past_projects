@@ -8,12 +8,13 @@ public class DiseaseDBAPITest {
     private DiseaseLinker diseaseLinker;
     private Disease disease;
 
-    public DiseaseDBAPITest() {
-        diseaseLinker = new DiseaseLinker();
+    public static void main(String[] args) {
+        DiseaseDBAPITest dt = new DiseaseDBAPITest();
+        dt.diseaseLinker = new DiseaseLinker();
         //foodDrinkLinker.calculateAllWaterAmount();
-        testRead();
-        testAddDisease();
-        testUpdateDisease();
+        dt.testRead();
+        dt.testAddDisease();
+        dt.testUpdateDisease();
     }//end cons
 
     public void testRead() {

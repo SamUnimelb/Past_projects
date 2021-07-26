@@ -47,7 +47,7 @@ public class TastesLinker {
         
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.tastes WHERE taste_food_id = ?;");
             preparedStatement.setInt(1, foodDrinkID);
             resultSet = preparedStatement.executeQuery();

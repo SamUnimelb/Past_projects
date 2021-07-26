@@ -51,7 +51,7 @@ public class RegisteredUserLinker {
 
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             ruser = new RegisteredUser();
 
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.registered_user WHERE user_name = ?"
@@ -91,7 +91,7 @@ public class RegisteredUserLinker {
     public RegisteredUser readSingleUserFromDB(int userID) {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");            
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");            
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.registered_user WHERE iduser = ?;");
             preparedStatement.setInt(1, userID);
             resultSet = preparedStatement.executeQuery();
@@ -124,7 +124,7 @@ public class RegisteredUserLinker {
     public void registerUser() {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             preparedStatement = connect.prepareStatement("SELECT iduser FROM registered_user order by iduser;");
             resultSet = preparedStatement.executeQuery();
             resultSetMetaData = resultSet.getMetaData();
@@ -177,7 +177,7 @@ public class RegisteredUserLinker {
     public void updateDB() {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             String statement = "UPDATE what_to_eat.registered_user "
                         + "SET user_name = ?, password = ?, email = ? "
                         + "WHERE iduser = ?;";                 

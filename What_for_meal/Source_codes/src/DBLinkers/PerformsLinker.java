@@ -30,7 +30,7 @@ public class PerformsLinker {
     public boolean addPerformRecord(Peforms perform){
          try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
 
             //Line doing encryption, should be used with execute update.
             preparedStatement = connect.prepareStatement("INSERT INTO what_to_eat.performs "

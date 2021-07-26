@@ -48,7 +48,7 @@ public class FoodDrinkLinker {
     public FoodDrink readTheFoodDrinkInfoFromDB(int foodDrinkID) {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             foodDrink = new FoodDrink();
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.food_drinks WHERE idFood_Drinks = ?;");
             preparedStatement.setInt(1, foodDrinkID);
@@ -81,7 +81,7 @@ public class FoodDrinkLinker {
     public FoodDrink readTheFoodDrinkInfoFromDB(String foodDrinkName, boolean isChinese) {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             foodDrink = new FoodDrink();                    
             
             if(isChinese)
@@ -125,7 +125,7 @@ public class FoodDrinkLinker {
     public boolean addFoodDrink() {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             preparedStatement = connect.prepareStatement("SELECT idFood_Drinks FROM food_drinks order by idFood_Drinks;");
             resultSet = preparedStatement.executeQuery();
             resultSetMetaData = resultSet.getMetaData();
@@ -157,7 +157,7 @@ public class FoodDrinkLinker {
     private boolean addToDB() {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             //Line doing encryption, should be used with execute update.
             preparedStatement = connect.prepareStatement("INSERT INTO what_to_eat.food_drinks "
                     + "VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?);");
@@ -198,7 +198,7 @@ public class FoodDrinkLinker {
     public boolean updateFoodDrink() {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             //Line doing encryption, should be used with execute update.
             preparedStatement = connect.prepareStatement("UPDATE what_to_eat.food_drinks "
                     + "SET Food_DrinksName = ?, Food_Drinks_Chinese_Name = ?, Calorie = ?, "
@@ -244,7 +244,7 @@ public class FoodDrinkLinker {
     public void calculateAllWaterAmount(){
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");            
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");            
             
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.food_drinks;");
             resultSet = preparedStatement.executeQuery();
@@ -296,7 +296,7 @@ public class FoodDrinkLinker {
     public boolean deleteFoodDrinkInfoFromDB(int foodDrinkID) {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             foodDrink = new FoodDrink();
             preparedStatement = connect.prepareStatement("DELETE FROM what_to_eat.food_drinks WHERE idFood_Drinks = ?;");
             preparedStatement.setInt(1, foodDrinkID);
@@ -317,7 +317,7 @@ public class FoodDrinkLinker {
     public boolean deleteFoodDrinkInfoFromDB(String foodDrinkName, boolean isChinese) {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             foodDrink = new FoodDrink();                    
             
             if(isChinese)
@@ -346,7 +346,7 @@ public class FoodDrinkLinker {
         
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.food_drinks ORDER BY Food_DrinksName;");
             resultSet = preparedStatement.executeQuery();
 

@@ -3,9 +3,11 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/F:/NetbeansJavaWP/What_To_Take/src/ProjectTestingPackage/LoginFrame.java</file>
-            <file>file:/F:/NetbeansJavaWP/What_To_Take/src/ProjectFrames/RegisteredUserFrame.java</file>
-            <file>file:/F:/NetbeansJavaWP/What_To_Take/src/DBLinkers/RegisteredUserLinker.java</file>
+            <file>file:/H:/Git/Code_devs/Past_projects/What_for_meal/Source_codes/src/DBLinkers/FoodImageLinker.java</file>
+            <file>file:/H:/Git/Code_devs/Past_projects/What_for_meal/Source_codes/src/ProjectTestingPackage/LoginFrame.java</file>
+            <file>file:/H:/Git/Code_devs/Past_projects/What_for_meal/Source_codes/src/ProjectTestingPackage/What_To_Take.java</file>
+            <file>file:/H:/Git/Code_devs/Past_projects/What_for_meal/Source_codes/src/ProjectFrames/FoodDrinkFrame.java</file>
+            <file>file:/H:/Git/Code_devs/Past_projects/What_for_meal/Source_codes/src/ProjectFrames/ExpertUser.java</file>
         </group>
     </open-files>
 </project-private>

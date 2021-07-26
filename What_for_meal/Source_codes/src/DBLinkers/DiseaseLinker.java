@@ -41,7 +41,7 @@ public class DiseaseLinker {
     public Disease readDiseaseInfoFromDB(int diseaseID) {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             disease = new Disease();
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.disease WHERE iddisease = ?;");
             preparedStatement.setInt(1, diseaseID);
@@ -69,7 +69,7 @@ public class DiseaseLinker {
     public Disease readDiseaseInfoFromDB(String diseaseName, boolean isChinese) {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             disease = new Disease();
             
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.disease WHERE disease_name = ?;");
@@ -104,7 +104,7 @@ public class DiseaseLinker {
     public boolean addDisease() {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             preparedStatement = connect.prepareStatement("SELECT iddisease FROM disease order by iddisease;");
             resultSet = preparedStatement.executeQuery();
             
@@ -134,7 +134,7 @@ public class DiseaseLinker {
     private boolean addToDB() {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             //Line doing encryption, should be used with execute update.
             preparedStatement = connect.prepareStatement("INSERT INTO what_to_eat.disease "
                     + "VALUES(?, ?, ?, ?, ?, ?);");
@@ -163,7 +163,7 @@ public class DiseaseLinker {
     public boolean updateDiseaseInfo() {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             //Line doing encryption, should be used with execute update.
             preparedStatement = connect.prepareStatement("UPDATE what_to_eat.disease "
                     + "SET disease_name = ?, disease_chinese_name = ?, "
@@ -199,7 +199,7 @@ public class DiseaseLinker {
         
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             disease = new Disease();
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.disease ORDER BY disease_name;");
             resultSet = preparedStatement.executeQuery();

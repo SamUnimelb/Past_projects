@@ -44,7 +44,7 @@ public class RUserBMILinker {
         
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");            
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");            
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.registered_user_bmi WHERE BMI_uid = ? "
                     + "ORDER BY Measured_time DESC;");
             preparedStatement.setInt(1, userID);
@@ -95,7 +95,7 @@ public class RUserBMILinker {
     public boolean addUserBMIToDB() {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             //Line doing encryption, should be used with execute update.
             preparedStatement = connect.prepareStatement("INSERT INTO what_to_eat.registered_user_bmi "
                     + "VALUES(?, ?, ?, ?);");
@@ -122,7 +122,7 @@ public class RUserBMILinker {
     public boolean cleanUserBMIInfo() {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             //Line doing encryption, should be used with execute update.
             preparedStatement = connect.prepareStatement("DELETE FROM what_to_eat.registered_user_bmi "
                   + "WHERE BMI_uid = ?;");

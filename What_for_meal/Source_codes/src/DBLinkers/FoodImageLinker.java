@@ -36,7 +36,7 @@ public class FoodImageLinker {
     public boolean storePicture(String imgPath, int picID){
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             preparedStatement = connect.prepareStatement("SELECT image FROM food_image WHERE id_food_drink_img = ?;");
             preparedStatement.setInt(1, picID);
             resultSet = preparedStatement.executeQuery();
@@ -74,7 +74,7 @@ public class FoodImageLinker {
         String loadingPath = "temp" + picID + ".jpg";
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
                    preparedStatement = connect.prepareStatement("SELECT image FROM food_image WHERE id_food_drink_img = ?;");
             preparedStatement.setInt(1, picID);
             resultSet = preparedStatement.executeQuery();

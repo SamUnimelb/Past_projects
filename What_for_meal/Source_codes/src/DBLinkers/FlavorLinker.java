@@ -46,7 +46,7 @@ public class FlavorLinker {
     public Flavor readTheFlavorInfoFromDB(int flavorID) {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             flavor = new Flavor();
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.flavor WHERE idflavor = ?;");
             preparedStatement.setInt(1, flavorID);
@@ -71,7 +71,7 @@ public class FlavorLinker {
     public Flavor readTheFlavorInfoFromDB(String flavorName, boolean isChinese) {
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             flavor = new Flavor();
             
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.flavor WHERE flavor_name = ?;");            
@@ -103,7 +103,7 @@ public class FlavorLinker {
 
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");  
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");  
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.flavor;");
             resultSet = preparedStatement.executeQuery();
 

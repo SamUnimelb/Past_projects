@@ -35,7 +35,7 @@ public class ActivityLinker {
         
         try {
             // setup the connection with the DB.            
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.activity WHERE idactivity = ?;");
             preparedStatement.setInt(1, activityID);
             resultSet = preparedStatement.executeQuery();
@@ -63,7 +63,7 @@ public class ActivityLinker {
         
         try {
             // setup the connection with the DB.            
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.activity ORDER BY items;");
             resultSet = preparedStatement.executeQuery();
 
@@ -89,7 +89,7 @@ public class ActivityLinker {
     public boolean addActivity(Activity activity){
         try {
             // setup the connection with the DB.            
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             preparedStatement = connect.prepareStatement("SELECT idactivity FROM what_to_eat.activity ORDER BY idactivity DESC;");
             resultSet = preparedStatement.executeQuery();
             resultSet.next();

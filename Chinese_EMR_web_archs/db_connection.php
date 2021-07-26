@@ -9,7 +9,7 @@ if(!defined('DB_USER'))
     DEFINE ('DB_USER', 'root');
 
 if(!defined('DB_PASSWORD'))
-    DEFINE ('DB_PASSWORD', '12345y');
+    DEFINE ('DB_PASSWORD', '12345');
 
 if(!defined('DB_HOST'))
     DEFINE ('DB_HOST', 'localhost');

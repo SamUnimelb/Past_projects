@@ -41,7 +41,7 @@ public class UserFlavorLinker {
         
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             preparedStatement = connect.prepareStatement("SELECT * FROM what_to_eat.flavor_profile WHERE flavor_uid = ?;");
             preparedStatement.setInt(1, rUserID);
             resultSet = preparedStatement.executeQuery();
@@ -78,7 +78,7 @@ public class UserFlavorLinker {
         
         try {
             // setup the connection with the DB.
-            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "123456");
+            connect = DriverManager.getConnection("jdbc:mysql://localhost/what_to_eat", "root", "12345");
             preparedStatement = connect.prepareStatement("DELETE FROM flavor_profile WHERE flavor_uid = ?;");
             preparedStatement.setInt(1, rUserID);
             preparedStatement.executeUpdate();
